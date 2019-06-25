@@ -9,6 +9,7 @@
 #import "XMTaskScheduleCell.h"
 #import "XMTaskScheduleFrameModel.h"
 #import "XMTaskScheduleModel.h"
+#import <UIImageView+WebCache.h>
 
 @interface XMTaskScheduleCell ()
 
@@ -28,7 +29,7 @@
     self.titleLabel.text = frameModel.titleString;
     self.contentLabel.text = frameModel.contentString;
     if (frameModel.isShowIcon) {
-//        [self.iconImageView xm_setImageWithURLStr:frameModel.model.icon];
+        [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:frameModel.model.icon]];
         self.redImageView.hidden = YES;
     } else {
         self.redImageView.hidden = NO;

@@ -18,6 +18,7 @@
 		9BF4728222C2020E005FADB9 /* XMTaskScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4727F22C2020E005FADB9 /* XMTaskScheduleCell.m */; };
 		9BF4728322C2020E005FADB9 /* XMTaskScheduleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4728022C2020E005FADB9 /* XMTaskScheduleHeaderView.m */; };
 		9BF4728622C2026B005FADB9 /* XMTaskScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4728522C2026B005FADB9 /* XMTaskScheduleViewController.m */; };
+		9BF4728822C21F78005FADB9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BF4728722C21F78005FADB9 /* data.json */; };
 		F7868767739065462E2339FC /* libPods-QQNewScheduleView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1189EB609FD6B251D0D12405 /* libPods-QQNewScheduleView.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		9BF4728022C2020E005FADB9 /* XMTaskScheduleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTaskScheduleHeaderView.m; sourceTree = "<group>"; };
 		9BF4728422C2026B005FADB9 /* XMTaskScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMTaskScheduleViewController.h; sourceTree = "<group>"; };
 		9BF4728522C2026B005FADB9 /* XMTaskScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTaskScheduleViewController.m; sourceTree = "<group>"; };
+		9BF4728722C21F78005FADB9 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		9BF4726F22C201D3005FADB9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9BF4728722C21F78005FADB9 /* data.json */,
 				9BF4727822C201F4005FADB9 /* XMTaskScheduleFrameModel.h */,
 				9BF4727622C201F4005FADB9 /* XMTaskScheduleFrameModel.m */,
 				9BF4727522C201F4005FADB9 /* XMTaskScheduleModel.h */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF4725F22C1FEE6005FADB9 /* LaunchScreen.storyboard in Resources */,
+				9BF4728822C21F78005FADB9 /* data.json in Resources */,
 				9BF4725C22C1FEE6005FADB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

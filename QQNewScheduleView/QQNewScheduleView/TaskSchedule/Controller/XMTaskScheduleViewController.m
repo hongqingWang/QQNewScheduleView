@@ -13,6 +13,7 @@
 #import "XMTaskScheduleFooterView.h"
 #import "XMTaskScheduleModel.h"
 #import "XMTaskScheduleFrameModel.h"
+#import <MJExtension/MJExtension.h>
 
 @interface XMTaskScheduleViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -36,42 +37,19 @@
 #pragma mark - LoadData
 - (void)loadData {
     
-//    // 未登录则传空
-//    NSString *token = @"";
-//    // 判断是否登录
-//    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-//    if ([appDelegate isLogin] && appDelegate.token) {
-//        token = appDelegate.token;
-//    }
-//
-//    NSDictionary *para = @{
-//                           @"token":token,
-//                           @"task_id":self.taskId
-//                           };
-//    NSString *URLString = TaskSchedule;
-//
-//    [XMNetWork postWithURLString:URLString params:para notReachable:^{
-//
-//        [XMSystemAlertView showSystemAlertView:self message:@"请检查网络"];
-//
-//    } success:^(NSString *code, id responseObject) {
-//
-//        if ([code isEqualToString:@"1000"]) {
-//
-//            NSArray *tempArray = responseObject[@"data"];
-//            for (int i = 0; i < tempArray.count; i++) {
-//                XMTaskScheduleFrameModel *frameModel = [[XMTaskScheduleFrameModel alloc] init];
-//                XMTaskScheduleModel *model = [XMTaskScheduleModel parse:tempArray[i]];
-//                model.index = i;
-//                model.totalCount = tempArray.count;
-//                frameModel.model = model;
-//                [self.taskScheduleModelArray addObject:frameModel];
-//            }
-//            [self.tableView reloadData];
-//        }
-//    } failure:^(NSError *error) {
-//
-//    }];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"data.json" ofType:nil];
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    
+    NSArray *tempArray = [XMTaskScheduleModel mj_objectArrayWithKeyValuesArray:data];
+    for (int i = 0; i < tempArray.count; i++) {
+        XMTaskScheduleFrameModel *frameModel = [[XMTaskScheduleFrameModel alloc] init];
+        XMTaskScheduleModel *model = [XMTaskScheduleModel mj_objectWithKeyValues:tempArray[i]];
+        model.index = i;
+        model.totalCount = tempArray.count;
+        frameModel.model = model;
+        [self.taskScheduleModelArray addObject:frameModel];
+    }
+    [self.tableView reloadData];
 }
 
 #pragma mark - SetupUI

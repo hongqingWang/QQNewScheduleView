@@ -10,5 +10,7 @@ target 'QQNewScheduleView' do
 inhibit_all_warnings!
 
 pod 'Masonry'
+pod 'MJExtension'
+pod 'SDWebImage'
 
 end
