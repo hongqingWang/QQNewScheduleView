@@ -12,9 +12,19 @@
 		9BF4725F22C1FEE6005FADB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF4725D22C1FEE6005FADB9 /* LaunchScreen.storyboard */; };
 		9BF4726222C1FEE6005FADB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4726122C1FEE6005FADB9 /* main.m */; };
 		9BF4726A22C1FF37005FADB9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4726922C1FF37005FADB9 /* HomeViewController.m */; };
+		9BF4727922C201F4005FADB9 /* XMTaskScheduleFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4727622C201F4005FADB9 /* XMTaskScheduleFrameModel.m */; };
+		9BF4727A22C201F4005FADB9 /* XMTaskScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4727722C201F4005FADB9 /* XMTaskScheduleModel.m */; };
+		9BF4728122C2020E005FADB9 /* XMTaskScheduleFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4727E22C2020E005FADB9 /* XMTaskScheduleFooterView.m */; };
+		9BF4728222C2020E005FADB9 /* XMTaskScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4727F22C2020E005FADB9 /* XMTaskScheduleCell.m */; };
+		9BF4728322C2020E005FADB9 /* XMTaskScheduleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4728022C2020E005FADB9 /* XMTaskScheduleHeaderView.m */; };
+		9BF4728622C2026B005FADB9 /* XMTaskScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4728522C2026B005FADB9 /* XMTaskScheduleViewController.m */; };
+		F7868767739065462E2339FC /* libPods-QQNewScheduleView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1189EB609FD6B251D0D12405 /* libPods-QQNewScheduleView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1189EB609FD6B251D0D12405 /* libPods-QQNewScheduleView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQNewScheduleView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758113930BB30671307D2507 /* Pods-QQNewScheduleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQNewScheduleView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQNewScheduleView/Pods-QQNewScheduleView.debug.xcconfig"; sourceTree = "<group>"; };
+		80EF97CCBACEB61025A16B45 /* Pods-QQNewScheduleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQNewScheduleView.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQNewScheduleView/Pods-QQNewScheduleView.release.xcconfig"; sourceTree = "<group>"; };
 		9BF4724F22C1FEE4005FADB9 /* QQNewScheduleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQNewScheduleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF4725222C1FEE4005FADB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BF4725322C1FEE4005FADB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +34,18 @@
 		9BF4726122C1FEE6005FADB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BF4726822C1FF36005FADB9 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		9BF4726922C1FF37005FADB9 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9BF4727522C201F4005FADB9 /* XMTaskScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTaskScheduleModel.h; sourceTree = "<group>"; };
+		9BF4727622C201F4005FADB9 /* XMTaskScheduleFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTaskScheduleFrameModel.m; sourceTree = "<group>"; };
+		9BF4727722C201F4005FADB9 /* XMTaskScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTaskScheduleModel.m; sourceTree = "<group>"; };
+		9BF4727822C201F4005FADB9 /* XMTaskScheduleFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTaskScheduleFrameModel.h; sourceTree = "<group>"; };
+		9BF4727B22C2020E005FADB9 /* XMTaskScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTaskScheduleCell.h; sourceTree = "<group>"; };
+		9BF4727C22C2020E005FADB9 /* XMTaskScheduleFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTaskScheduleFooterView.h; sourceTree = "<group>"; };
+		9BF4727D22C2020E005FADB9 /* XMTaskScheduleHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTaskScheduleHeaderView.h; sourceTree = "<group>"; };
+		9BF4727E22C2020E005FADB9 /* XMTaskScheduleFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTaskScheduleFooterView.m; sourceTree = "<group>"; };
+		9BF4727F22C2020E005FADB9 /* XMTaskScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTaskScheduleCell.m; sourceTree = "<group>"; };
+		9BF4728022C2020E005FADB9 /* XMTaskScheduleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTaskScheduleHeaderView.m; sourceTree = "<group>"; };
+		9BF4728422C2026B005FADB9 /* XMTaskScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMTaskScheduleViewController.h; sourceTree = "<group>"; };
+		9BF4728522C2026B005FADB9 /* XMTaskScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTaskScheduleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7868767739065462E2339FC /* libPods-QQNewScheduleView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D0B5F91350C4F50B0CF3E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758113930BB30671307D2507 /* Pods-QQNewScheduleView.debug.xcconfig */,
+				80EF97CCBACEB61025A16B45 /* Pods-QQNewScheduleView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3616056337B9B5AD85E58239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1189EB609FD6B251D0D12405 /* libPods-QQNewScheduleView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9BF4724622C1FEE4005FADB9 = {
 			isa = PBXGroup;
 			children = (
 				9BF4725122C1FEE4005FADB9 /* QQNewScheduleView */,
 				9BF4725022C1FEE4005FADB9 /* Products */,
+				07D0B5F91350C4F50B0CF3E7 /* Pods */,
+				3616056337B9B5AD85E58239 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +102,56 @@
 				9BF4725322C1FEE4005FADB9 /* AppDelegate.m */,
 				9BF4726822C1FF36005FADB9 /* HomeViewController.h */,
 				9BF4726922C1FF37005FADB9 /* HomeViewController.m */,
+				9BF4726B22C20173005FADB9 /* TaskSchedule */,
 				9BF4725B22C1FEE6005FADB9 /* Assets.xcassets */,
 				9BF4725D22C1FEE6005FADB9 /* LaunchScreen.storyboard */,
 				9BF4726022C1FEE6005FADB9 /* Info.plist */,
 				9BF4726122C1FEE6005FADB9 /* main.m */,
 			);
 			path = QQNewScheduleView;
+			sourceTree = "<group>";
+		};
+		9BF4726B22C20173005FADB9 /* TaskSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				9BF4727022C201D3005FADB9 /* Controller */,
+				9BF4726F22C201D3005FADB9 /* Model */,
+				9BF4727322C201D3005FADB9 /* View */,
+			);
+			path = TaskSchedule;
+			sourceTree = "<group>";
+		};
+		9BF4726F22C201D3005FADB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BF4727822C201F4005FADB9 /* XMTaskScheduleFrameModel.h */,
+				9BF4727622C201F4005FADB9 /* XMTaskScheduleFrameModel.m */,
+				9BF4727522C201F4005FADB9 /* XMTaskScheduleModel.h */,
+				9BF4727722C201F4005FADB9 /* XMTaskScheduleModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BF4727022C201D3005FADB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BF4728422C2026B005FADB9 /* XMTaskScheduleViewController.h */,
+				9BF4728522C2026B005FADB9 /* XMTaskScheduleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BF4727322C201D3005FADB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BF4727D22C2020E005FADB9 /* XMTaskScheduleHeaderView.h */,
+				9BF4728022C2020E005FADB9 /* XMTaskScheduleHeaderView.m */,
+				9BF4727B22C2020E005FADB9 /* XMTaskScheduleCell.h */,
+				9BF4727F22C2020E005FADB9 /* XMTaskScheduleCell.m */,
+				9BF4727C22C2020E005FADB9 /* XMTaskScheduleFooterView.h */,
+				9BF4727E22C2020E005FADB9 /* XMTaskScheduleFooterView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BF4726522C1FEE6005FADB9 /* Build configuration list for PBXNativeTarget "QQNewScheduleView" */;
 			buildPhases = (
+				792C488389C4BE358789CFD8 /* [CP] Check Pods Manifest.lock */,
 				9BF4724B22C1FEE4005FADB9 /* Sources */,
 				9BF4724C22C1FEE4005FADB9 /* Frameworks */,
 				9BF4724D22C1FEE4005FADB9 /* Resources */,
@@ -132,14 +219,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		792C488389C4BE358789CFD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQNewScheduleView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BF4724B22C1FEE4005FADB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF4728622C2026B005FADB9 /* XMTaskScheduleViewController.m in Sources */,
+				9BF4728122C2020E005FADB9 /* XMTaskScheduleFooterView.m in Sources */,
+				9BF4727A22C201F4005FADB9 /* XMTaskScheduleModel.m in Sources */,
 				9BF4726222C1FEE6005FADB9 /* main.m in Sources */,
+				9BF4728222C2020E005FADB9 /* XMTaskScheduleCell.m in Sources */,
 				9BF4725422C1FEE4005FADB9 /* AppDelegate.m in Sources */,
 				9BF4726A22C1FF37005FADB9 /* HomeViewController.m in Sources */,
+				9BF4728322C2020E005FADB9 /* XMTaskScheduleHeaderView.m in Sources */,
+				9BF4727922C201F4005FADB9 /* XMTaskScheduleFrameModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +389,7 @@
 		};
 		9BF4726622C1FEE6005FADB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758113930BB30671307D2507 /* Pods-QQNewScheduleView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -288,6 +407,7 @@
 		};
 		9BF4726722C1FEE6005FADB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EF97CCBACEB61025A16B45 /* Pods-QQNewScheduleView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
