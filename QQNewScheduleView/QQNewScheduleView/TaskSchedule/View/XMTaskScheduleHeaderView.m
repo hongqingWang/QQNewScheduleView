@@ -7,6 +7,7 @@
 //
 
 #import "XMTaskScheduleHeaderView.h"
+#import <Masonry.h>
 
 @interface XMTaskScheduleHeaderView ()
 
@@ -31,10 +32,10 @@
     
     [self addSubview:self.titleLabel];
     
-//    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.equalTo(self).offset(16);
-//        make.centerY.equalTo(self);
-//    }];
+    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self).offset(16);
+        make.centerY.equalTo(self);
+    }];
 }
 
 #pragma mark - Getters and Setters

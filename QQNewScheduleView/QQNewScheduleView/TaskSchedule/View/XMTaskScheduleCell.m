@@ -101,7 +101,7 @@
 - (UIView *)verticalLineView {
     if (_verticalLineView == nil) {
         _verticalLineView = [[UIView alloc] init];
-        _verticalLineView.backgroundColor = [UIColor lightTextColor];
+        _verticalLineView.backgroundColor = [UIColor redColor];
     }
     return _verticalLineView;
 }
@@ -120,7 +120,7 @@
     if (_contentLabel == nil) {
         _contentLabel = [[UILabel alloc] init];
         _contentLabel.text = @" ";
-        _contentLabel.textColor = [UIColor darkTextColor];
+        _contentLabel.textColor = [UIColor lightGrayColor];
         _contentLabel.font = [UIFont systemFontOfSize:14];
     }
     return _contentLabel;

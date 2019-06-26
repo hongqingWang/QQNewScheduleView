@@ -117,7 +117,7 @@
     if (_labelDetail01 == nil) {
         _labelDetail01 = [[UILabel alloc] init];
         _labelDetail01.text = @"先迈网仅提供中介服务，请您在承接任务前详细了解任务内容及任务步骤，审慎决定是否承接，由此产生的后果与先迈网无关！";
-        _labelDetail01.textColor = [UIColor lightTextColor];
+        _labelDetail01.textColor = [UIColor darkTextColor];
         _labelDetail01.font = [UIFont systemFontOfSize:13];
         _labelDetail01.numberOfLines = 0;
     }
@@ -128,7 +128,7 @@
     if (_label02 == nil) {
         _label02 = [[UILabel alloc] init];
         _label02.text = @"2.";
-        _label02.textColor = [UIColor lightTextColor];
+        _label02.textColor = [UIColor darkTextColor];
         _label02.font = [UIFont systemFontOfSize:13];
     }
     return _label02;
